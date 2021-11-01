@@ -1,0 +1,203 @@
+
+
+*{
+   margin: 0px;
+    padding: 0px;
+    line-height: 1.6;
+    
+}
+
+section{
+    padding: 5em 2em;
+}
+
+
+.menu-bar{
+    background-image: linear-gradient(-90deg,#d38312,#a83279);
+}
+.nav-link{
+    margin: 3px;
+    color: #fff ;
+    font-size:16px ;
+    font-weight: 500;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    
+}
+
+.navbar-nav{
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+.menu-bar .navbar-toggler {
+    padding-right: 20px;
+    outline: none;
+    border: none;
+
+
+}
+.nav-link:hover{
+    font-weight: 600;
+    color: chocolate;
+    
+    
+} 
+
+
+.navbar-brand img{
+    width: 45px;
+    margin-left: 16px;
+}
+
+
+.footer{
+    text-align: center;
+  }
+
+  /* intro-section */
+
+.intro{
+    position: relative ;
+    line-height: 1;
+    background-color: #EEB76B;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.section-intro{
+    background-color: darkcyan;
+    width: 250px;
+    height: 37px;
+    position: absolute;
+    left: 900px;
+    top: 300px;
+    padding-right:10px;
+    text-align: right;
+    grid-column: -1/1;
+    align-self: flex-start;
+    grid-row: 2;
+
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+    
+}
+
+.section-title{
+    position: absolute;
+    width: 350px;
+    height: 64px;
+    margin-left: 700px;
+}
+
+
+.headImg{
+    width: 350px;
+    margin-left: 500px;
+    box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+    z-index: 2;
+    display: block;
+} 
+
+/* What I do */
+
+.Hr{
+    border: 1px solid;
+    color: darkgray;
+    width: 20%;
+    margin: auto;
+    
+}
+
+.section-service-title{
+padding-bottom: 20px;
+}
+
+.services{
+    /* background-color: #E2703A; */
+    text-align: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: blanchedalmond;
+    background-image: url("img/services-bg.jpg");
+    opacity: 0.8;
+}
+
+.section-service-title{
+    font-weight: bolder;
+    font-size: 3.5em;
+}
+.service-div{
+    
+    padding-top: 20px;
+
+}
+
+.desc{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 0.5;
+    padding-top: 16px;
+    font-size: 1.2em;
+}
+
+/* About me */
+
+.whoIam{
+    font-weight: bolder;
+    font-size: 3.5em;
+    padding-bottom: 20px;
+}
+
+.aboutmeBody{
+padding-top: 20px;
+}
+
+.abtme{
+   background-color:  #9C3D54;
+   
+    
+    text-align: center;
+}
+
+
+
+/* footer */
+
+.footer-text{
+    padding-top: 20px; 
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.btn:hover{
+    color: chocolate;
+}
+
+.footer{
+    background-color: #79B4B7;
+}
+
+.btn{
+    padding-bottom: 30px;
+    margin: 10px;
+}
+
+/* project */
+.project{
+background-color: #EEB76B;
+text-align: center;
+}
+
+.mywork{
+    padding-bottom: 20px;
+}
+
+.portfolio-items:hover{
+    color: brown;
+    text-decoration: none;
+}
+
+.portfolio-items{
+font-size: xx-large;
+
+}
